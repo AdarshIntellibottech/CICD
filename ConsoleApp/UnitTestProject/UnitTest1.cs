@@ -18,6 +18,7 @@ namespace UnitTestProject
 
                 var result = sw.ToString().Trim();
                 Assert.AreEqual(Expected, result);
+                Console.WriteLine("Hello aws");
             }
         }
     }
