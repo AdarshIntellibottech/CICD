@@ -17,7 +17,7 @@ namespace UnitTestProject
                 ConsoleApp.Program.Main();
 
                 var result = sw.ToString().Trim();
-                Assert.AreEqual(Expected, result);
+                Assert.AreEqual(Expected, result)
             }
         }
     }
